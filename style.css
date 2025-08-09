@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 211, 164);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 127, 127);
+}
+
+table {
+    background-color: aliceblue;
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc; 
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+textarea {
+    resize: none; 
+}
+
+button {
+    background-color: rgb(172, 201, 255);
+    color: rgb(40, 44, 48);
+    border: none;
+    cursor: pointer;
+}
+
+
